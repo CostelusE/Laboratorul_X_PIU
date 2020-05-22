@@ -1,0 +1,656 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="rbOlanda.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="rbOlanda.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 10.8pt</value>
+  </data>
+  <data name="rbOlanda.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 142</value>
+  </data>
+  <data name="rbOlanda.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 26</value>
+  </data>
+  <data name="rbOlanda.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="rbOlanda.Text" xml:space="preserve">
+    <value>Olanda</value>
+  </data>
+  <data name="&gt;&gt;rbOlanda.Name" xml:space="preserve">
+    <value>rbOlanda</value>
+  </data>
+  <data name="&gt;&gt;rbOlanda.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbOlanda.Parent" xml:space="preserve">
+    <value>gbProvenienta</value>
+  </data>
+  <data name="&gt;&gt;rbOlanda.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbItalia.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbItalia.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 10.8pt</value>
+  </data>
+  <data name="rbItalia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 81</value>
+  </data>
+  <data name="rbItalia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 26</value>
+  </data>
+  <data name="rbItalia.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="rbItalia.Text" xml:space="preserve">
+    <value>Italia</value>
+  </data>
+  <data name="&gt;&gt;rbItalia.Name" xml:space="preserve">
+    <value>rbItalia</value>
+  </data>
+  <data name="&gt;&gt;rbItalia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbItalia.Parent" xml:space="preserve">
+    <value>gbProvenienta</value>
+  </data>
+  <data name="&gt;&gt;rbItalia.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbGermania.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbGermania.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 10.8pt</value>
+  </data>
+  <data name="rbGermania.Location" type="System.Drawing.Point, System.Drawing">
+    <value>303, 21</value>
+  </data>
+  <data name="rbGermania.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 26</value>
+  </data>
+  <data name="rbGermania.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rbGermania.Text" xml:space="preserve">
+    <value>Germania</value>
+  </data>
+  <data name="&gt;&gt;rbGermania.Name" xml:space="preserve">
+    <value>rbGermania</value>
+  </data>
+  <data name="&gt;&gt;rbGermania.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbGermania.Parent" xml:space="preserve">
+    <value>gbProvenienta</value>
+  </data>
+  <data name="&gt;&gt;rbGermania.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbSpania.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbSpania.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 10.8pt</value>
+  </data>
+  <data name="rbSpania.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 142</value>
+  </data>
+  <data name="rbSpania.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 26</value>
+  </data>
+  <data name="rbSpania.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="rbSpania.Text" xml:space="preserve">
+    <value>Spania</value>
+  </data>
+  <data name="&gt;&gt;rbSpania.Name" xml:space="preserve">
+    <value>rbSpania</value>
+  </data>
+  <data name="&gt;&gt;rbSpania.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbSpania.Parent" xml:space="preserve">
+    <value>gbProvenienta</value>
+  </data>
+  <data name="&gt;&gt;rbSpania.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rbAnglia.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbAnglia.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 10.8pt</value>
+  </data>
+  <data name="rbAnglia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 81</value>
+  </data>
+  <data name="rbAnglia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 26</value>
+  </data>
+  <data name="rbAnglia.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="rbAnglia.Text" xml:space="preserve">
+    <value>Anglia</value>
+  </data>
+  <data name="&gt;&gt;rbAnglia.Name" xml:space="preserve">
+    <value>rbAnglia</value>
+  </data>
+  <data name="&gt;&gt;rbAnglia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbAnglia.Parent" xml:space="preserve">
+    <value>gbProvenienta</value>
+  </data>
+  <data name="&gt;&gt;rbAnglia.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="rbRomania.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbRomania.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 10.8pt</value>
+  </data>
+  <data name="rbRomania.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 21</value>
+  </data>
+  <data name="rbRomania.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 26</value>
+  </data>
+  <data name="rbRomania.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rbRomania.Text" xml:space="preserve">
+    <value>Romania</value>
+  </data>
+  <data name="&gt;&gt;rbRomania.Name" xml:space="preserve">
+    <value>rbRomania</value>
+  </data>
+  <data name="&gt;&gt;rbRomania.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbRomania.Parent" xml:space="preserve">
+    <value>gbProvenienta</value>
+  </data>
+  <data name="&gt;&gt;rbRomania.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="gbProvenienta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>107, 85</value>
+  </data>
+  <data name="gbProvenienta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>505, 183</value>
+  </data>
+  <data name="gbProvenienta.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;gbProvenienta.Name" xml:space="preserve">
+    <value>gbProvenienta</value>
+  </data>
+  <data name="&gt;&gt;gbProvenienta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbProvenienta.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbProvenienta.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="rbServici.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbServici.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 10.8pt</value>
+  </data>
+  <data name="rbServici.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 94</value>
+  </data>
+  <data name="rbServici.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 26</value>
+  </data>
+  <data name="rbServici.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="rbServici.Text" xml:space="preserve">
+    <value>Servici</value>
+  </data>
+  <data name="&gt;&gt;rbServici.Name" xml:space="preserve">
+    <value>rbServici</value>
+  </data>
+  <data name="&gt;&gt;rbServici.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbServici.Parent" xml:space="preserve">
+    <value>gbGrup</value>
+  </data>
+  <data name="&gt;&gt;rbServici.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbFamilie.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbFamilie.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 10.8pt</value>
+  </data>
+  <data name="rbFamilie.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 21</value>
+  </data>
+  <data name="rbFamilie.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 26</value>
+  </data>
+  <data name="rbFamilie.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="rbFamilie.Text" xml:space="preserve">
+    <value>Familie</value>
+  </data>
+  <data name="&gt;&gt;rbFamilie.Name" xml:space="preserve">
+    <value>rbFamilie</value>
+  </data>
+  <data name="&gt;&gt;rbFamilie.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbFamilie.Parent" xml:space="preserve">
+    <value>gbGrup</value>
+  </data>
+  <data name="&gt;&gt;rbFamilie.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbPrieteni.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbPrieteni.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 10.8pt</value>
+  </data>
+  <data name="rbPrieteni.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 92</value>
+  </data>
+  <data name="rbPrieteni.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 26</value>
+  </data>
+  <data name="rbPrieteni.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="rbPrieteni.Text" xml:space="preserve">
+    <value>Prieteni</value>
+  </data>
+  <data name="&gt;&gt;rbPrieteni.Name" xml:space="preserve">
+    <value>rbPrieteni</value>
+  </data>
+  <data name="&gt;&gt;rbPrieteni.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbPrieteni.Parent" xml:space="preserve">
+    <value>gbGrup</value>
+  </data>
+  <data name="&gt;&gt;rbPrieteni.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbScoala.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbScoala.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 10.8pt</value>
+  </data>
+  <data name="rbScoala.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 21</value>
+  </data>
+  <data name="rbScoala.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 26</value>
+  </data>
+  <data name="rbScoala.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="rbScoala.Text" xml:space="preserve">
+    <value>Scoala</value>
+  </data>
+  <data name="&gt;&gt;rbScoala.Name" xml:space="preserve">
+    <value>rbScoala</value>
+  </data>
+  <data name="&gt;&gt;rbScoala.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbScoala.Parent" xml:space="preserve">
+    <value>gbGrup</value>
+  </data>
+  <data name="&gt;&gt;rbScoala.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gbGrup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 346</value>
+  </data>
+  <data name="gbGrup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>460, 143</value>
+  </data>
+  <data name="gbGrup.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;gbGrup.Name" xml:space="preserve">
+    <value>gbGrup</value>
+  </data>
+  <data name="&gt;&gt;gbGrup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbGrup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbGrup.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="labelProvenienta.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Algerian, 14pt, style=Bold</value>
+  </data>
+  <data name="labelProvenienta.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 18</value>
+  </data>
+  <data name="labelProvenienta.Size" type="System.Drawing.Size, System.Drawing">
+    <value>221, 33</value>
+  </data>
+  <data name="labelProvenienta.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="labelProvenienta.Text" xml:space="preserve">
+    <value>Provenienta</value>
+  </data>
+  <data name="labelProvenienta.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labelProvenienta.Name" xml:space="preserve">
+    <value>labelProvenienta</value>
+  </data>
+  <data name="&gt;&gt;labelProvenienta.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelProvenienta.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelProvenienta.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        3QAAAN0BcFOiBwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAHxSURBVFhH7ZdN
+        SwJRFIan/6NiKWEtwixLzcw+wJK0giwrChIRUaLvSNI+LEwdiCCCWrWNCNrWtmgfQe36BS1OnomRCY96
+        Z0zduHjgOu8c5nHuuXNnOACoK5xGo1dpmvXDHMc1USdUG06t1X1qtDpQafVm6oRqw+HFkdY276Wphw/X
+        EmMPP5IXaO8IQmcvX3MqFjDbsgJUxoIiAY8nmR9f82EBKmNBtoBj8BTeHn2wu7Yp/F4J7wjgeMa3D18v
+        k+CdOPpTUwpFd2BpIQ7u8cJ/aneeQnA5Bpb+dEFWDGaBxdxFb85Dwh2gcikmSxbOT6Kws7pF5lKYBUKB
+        GNxeBciM4iwZhf3tdTKTomgK/hNmAY+XvbFEWGqYBOKbG/D+NA0DQykyp8BzsQZrqVyESWDMfQz+2QSZ
+        lQJrsJbKRGT1AC4z6jiFzZGGbmv5JySzwFpkG57v55mmAZfh3XUALlIRMpfCLDDjO4D4VvllJYJPR1y6
+        VCZF1hQgFnsG9nKN5Ro7Kcicwymh6RwymlW2gLkvA68Pfoit/+4Fc/6EAI6npg6FvYCSK4ZsAUS6BeNc
+        IzjGpkO6GJpPRJGAFGuu2xEqY6FigQr5zgvoDa6k0ZIdrSlW3pAXUGtbJqm31mrTEGgIoMAHCtTv06ze
+        H6fUwdoB3A+VIlt1SKCXDAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="pictureBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>260, 18</value>
+  </data>
+  <data name="pictureBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox2.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="pictureBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Name" xml:space="preserve">
+    <value>pictureBox2</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="labelGrup.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Algerian, 14pt, style=Bold</value>
+  </data>
+  <data name="labelGrup.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 299</value>
+  </data>
+  <data name="labelGrup.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 33</value>
+  </data>
+  <data name="labelGrup.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="labelGrup.Text" xml:space="preserve">
+    <value>Grup</value>
+  </data>
+  <data name="labelGrup.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;labelGrup.Name" xml:space="preserve">
+    <value>labelGrup</value>
+  </data>
+  <data name="&gt;&gt;labelGrup.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelGrup.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;labelGrup.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJ
+        TUUH5AUQFhUqLV3b2wAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAIQSURBVFhH
+        7dZLq41RHMfxh5i4ZCJ5E9RRJBPMXQbIQRQjxYAM5C4x8Q68Ahk5Ii+AkkwwZOKWmDAwcb98v7u9avV/
+        /nt72jnPxPnVp07r/6zLftba6+xmLhNmCaZxZci/F6OXbMd7/A7eYStmNdvwE3HywtoWzEoWwU+ZTVx7
+        C5/959mFbMLMDkycpXAvD2CVDcNcQjZZ5iJKVsOxHNOxx2Y3PqIe7BaW4WzV9jdnYJ/bVZs+YCfSbMB3
+        1B2KGXj6s1rGTxsnL5xjPVrxk2Ydiim8CW2ZV1gT2qKbaOUlsoeL/diMUW9J37AR7nlWL16glafIHi7K
+        93sTXiPWbXNy4xbEeu0xWrmA7GF5eOqrdgFc0Kkh/7atxGfjYa6dQyt2eoT4sK+8XLFeMG6Dd0LGWrmE
+        7JNt10OMvKhchG/C7fCVevo9fOY4PiEOGPnMMRj7erg9mE9wHhPdkqeRTTbOSXTOfBzCfXjfu39+5RZi
+        Jb4gm2Scz1gBx3Asx3TseziIeRjEyW8gDvAAZh9irau9MI4Va9fh3M2RYUN0B8a9z+pd2Nc4VlY/jJHf
+        f69ScwJZvQv7mlHX8uA++Fo11PpYgGcrLaiPBSht1NwCelvAr9BQ9LEA526eVw21PhbwDM0eZL/178Ic
+        Rax1ZV/jWLH2A/4GHWQdLuNapfzPXo6rqGtd2Me+xrHqmnOtxX+fpvkDC5Y5mwhim04AAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>305, 288</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 32</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>AutoSize</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="buttonFinalizare.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial Rounded MT Bold, 10.2pt</value>
+  </data>
+  <data name="buttonFinalizare.Location" type="System.Drawing.Point, System.Drawing">
+    <value>279, 530</value>
+  </data>
+  <data name="buttonFinalizare.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 37</value>
+  </data>
+  <data name="buttonFinalizare.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="buttonFinalizare.Text" xml:space="preserve">
+    <value>Finalizare</value>
+  </data>
+  <data name="&gt;&gt;buttonFinalizare.Name" xml:space="preserve">
+    <value>buttonFinalizare</value>
+  </data>
+  <data name="&gt;&gt;buttonFinalizare.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonFinalizare.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;buttonFinalizare.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>752, 613</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 60</value>
+  </data>
+  <data name="$this.RightToLeftLayout" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Forma_Destinatie</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
